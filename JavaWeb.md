@@ -1,6 +1,6 @@
 # `JavaWeb`
 
-## `HTML`
+## 1. `HTML`
 
 全称：超文本标记语言。下面是一个简单的`html`文件，`HTML`是解释性语言，一行行解释，解释出错不显示，浏览器可以尽量容错。
 
@@ -234,4 +234,49 @@
 </body>
 </html>
 ```
+
+## 2. `CSS`
+
+### 2.1 基础知识
+
+```html
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        p {
+            color: deepskyblue;
+        }
+
+        .f20 {
+            font-size: 20px;
+        }
+
+        #p3 {
+            background-color: deeppink;
+            font-size: 24px;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: 华文彩云;
+        }
+
+        .f32 {
+            font-size: 32px;
+        }
+    </style>
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <p>这是第一个段落</p>
+    <p class="f20">这是第二个段落</p>
+    <p id="p3">这是第三个段落</p>
+    <div>
+        <p><span style="font-size: 60px;font-weight: bolder;font-style: italic;color: orange">HELLO</span></p>
+        <span class="f32">World</span>
+    </div>
+</body>
+</html>
+```
+
+### 2.2 盒子模型
 
