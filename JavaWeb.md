@@ -280,3 +280,7 @@
 
 ### 2.2 盒子模型
 
+简单了解下`IE`盒子模型也称怪异盒子模型，第二种就是标准盒子模型，前者的`width`包含`width margin padding`，而后者`width`就是`width`。
+
+`position: absolute` -- 绝对定位 , 需要配合使用`left , top`
+`relative` -- 相对定位 , 一般会和`float , margin , padding ....`一起使用
